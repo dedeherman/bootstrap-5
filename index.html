@@ -11,7 +11,7 @@
     <!-- custom CSS -->
     <link href="custom.css" rel="stylesheet">
     
-    <title>my auction</title>
+    <title>My Auction</title>
   </head>
   
   <body>
@@ -41,6 +41,8 @@
     
     <!-- carousel -->
     
+    <div class="row">
+      <div class="col mt-3">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -79,8 +81,28 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+      </div>
+    </div>
     
     <!-- end carousel -->
+    
+    <!-- card -->
+    
+    <div class="container">
+      <div class="row">
+        <div class="col mt-3">
+    <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        </div>
+      </div>
+    
+    <!-- end card -->
     
     <script>var myCarousel = document.querySelector('#myCarousel')
       var carousel = new bootstrap.Carousel(myCarousel)</script>
