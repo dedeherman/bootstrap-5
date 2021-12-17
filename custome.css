@@ -1,3 +1,7 @@
+body{
+overflow: hidden;
+}
+
 .carousel-inner > .item > img {
   margin: 0 auto;
 }
