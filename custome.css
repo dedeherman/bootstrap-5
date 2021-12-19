@@ -2,7 +2,9 @@ body{
 overflow: hidden;
 }
 
-
+.nav-link:hover {
+ color: yellow; 
+}
 
 .carousel-inner > .item > img {
   margin: 0 auto;
