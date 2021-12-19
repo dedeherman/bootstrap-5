@@ -2,30 +2,48 @@ body{
 overflow: hidden;
 }
 
+
+
 .carousel-inner > .item > img {
   margin: 0 auto;
 }
+
+
 
 .slide {
   height: 50vh;
   width: 100%;
 }
 
+
+
 .footer {
   height: 10vh;
   padding: 5px;
 }
 
+
+
 .schedule {
   height: 500px;
   }
+
+
+
 
 .faq {
  height: 500px;
 }
 
- @media only screen and ( max-width: 600px ) {
-  .assets{
+ 
+
+.list-faq {
+ list-style: none;
+}
+
+@media only screen and ( max-width: 600px ) {
+  
+.assets{
      margin: auto;
    }
 }
