@@ -36,6 +36,12 @@ body {
     margin: auto;
   }
   .faq {
-    font-size: 5px;
+    font-size: 13px !important;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .faq {
+    font-size: 12px !important;
   }
 }
