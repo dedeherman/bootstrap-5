@@ -1,53 +1,41 @@
-body{
-overflow: hidden;
+body {
+  overflow: hidden;
 }
 
 .menu a:hover {
- color: yellow; 
+  color: yellow;
 }
 
 .carousel-inner > .item > img {
   margin: 0 auto;
 }
 
-
-
 .slide {
   height: 50vh;
   width: 100%;
 }
 
-
-
 .footer {
   padding: 5px;
-height: 300px;
 }
-
-
 
 .schedule {
   height: 500px;
-  }
-
-
-
+}
 
 .faq {
- height: 600px;
+  height: 600px;
 }
-
- 
 
 .list-faq {
- list-style: none;
+  list-style: none;
 }
 
-@media only screen and ( max-width: 600px ) {
-  
-.assets{
-     margin: auto;
-   }
-.faq{
-font-size: 13px;
+@media only screen and (max-width: 600px) {
+  .assets {
+    margin: auto;
+  }
+  .faq {
+    font-size: 5px;
+  }
 }
